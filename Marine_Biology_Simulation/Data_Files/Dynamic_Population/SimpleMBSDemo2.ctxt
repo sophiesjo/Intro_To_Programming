@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SimpleMBSDemo2
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ The\ <code>SimpleMBSDemo2</code>\ class\ provides\ a\ main\ method\ that\ creates\n\ \ a\ simulation\ of\ a\ number\ of\ fish\ swimming\ in\ a\ bounded\ environment,\n\ \ such\ as\ a\ pond,\ lake,\ or\ bay.\ \ It\ also\ creates\ a\ simple\ window\ in\ which\n\ \ to\ view\ the\ environment\ after\ each\ timestep\ in\ the\ simulation.\ This\n\ \ version\ of\ the\ MBS\ demo\ uses\ an\ object\ of\ the\ <code>Simulation</code>\ class.\n\n\ \ @author\ Alyce\ Brady\ \ (based\ on\ the\ AP\ CS\ SimpleMBSDemo2)\n\ \ @version\ 23\ March\ 2017\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ Start\ the\ Marine\ Biology\ Simulation\ program.\n\ \ The\ String\ arguments\ (args)\ are\ not\ used\ in\ this\ application.\n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SimpleMBSDisplay
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ A\ <code>SimpleMBSDisplay</code>\ is\ a\ simple\ graphical\ user\ interface\ for\n\ \ the\ Marine\ Biology\ Simulation.\ \ The\ user\ interface\ consists\ of\ a\ window\n\ \ containing\ the\ environment\ display\ (objects\ in\ a\ grid),\ with\ a\ slider\ for\n\ \ speeding\ up\ or\ slowing\ down\ the\ simulation.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=
+comment1.target=SimpleMBSDisplay()
+comment1.text=\ Creates\ a\ window\ in\ which\ to\ run\ a\ marine\ biology\ simulation.\n
+comment2.params=grid
+comment2.target=void\ setGrid(edu.kzoo.grid.Grid)
+comment2.text=\ Sets\ the\ Grid\ being\ displayed.\n\ \ (Precondition\:\ grid\ is\ not\ null.)\n\ \ \ \ @param\ grid\ the\ Grid\ to\ display\n
+numComments=3

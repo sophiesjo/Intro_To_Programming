@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TurningDarter
+comment0.text=\n\ This\ class\ creates\ fish\ similar\ to\ the\ darter\ fish,\ but\ the\ methods\ in\ this\ class\ allow\ the\ fish\n\ to\ move\ either\ right\ or\ left.\ They\ have\ a\ 1\ in\ 10\ chance\ of\ moving.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 25\ February\ 2021\n
+comment1.params=env\ loc
+comment1.target=TurningDarter(edu.kzoo.grid.Grid,\ edu.kzoo.grid.Location)
+comment1.text=\ Constructs\ a\ fish\ at\ the\ specified\ location\ in\ a\ given\ environment.\n\ \ The\ Fish\ is\ assigned\ a\ random\ direction\ and\ random\ color.\n\ \ (Precondition\:\ parameters\ are\ non-null;\ <code>loc</code>\ is\ valid\n\ \ for\ <code>env</code>.)\n\ \ @param\ env\ \ \ \ environment\ (grid)\ in\ which\ fish\ will\ live\n\ \ @param\ loc\ \ \ \ location\ of\ the\ new\ fish\ in\ <code>env</code>\n
+comment2.params=env\ loc\ dir
+comment2.target=TurningDarter(edu.kzoo.grid.Grid,\ edu.kzoo.grid.Location,\ edu.kzoo.grid.Direction)
+comment2.text=\ Constructs\ a\ fish\ at\ the\ specified\ location\ and\ direction\ in\ a\n\ \ given\ environment.\ \ The\ Fish\ is\ assigned\ a\ random\ color.\n\ \ (Precondition\:\ parameters\ are\ non-null;\ <code>loc</code>\ is\ valid\n\ \ for\ <code>env</code>.)\n\ \ @param\ env\ \ \ \ environment\ (grid)\ in\ which\ fish\ will\ live\n\ \ @param\ loc\ \ \ \ location\ of\ the\ new\ fish\ in\ <code>env</code>\n\ \ @param\ dir\ \ \ \ direction\ the\ new\ fish\ is\ facing\n
+comment3.params=env\ loc\ dir\ col
+comment3.target=TurningDarter(edu.kzoo.grid.Grid,\ edu.kzoo.grid.Location,\ edu.kzoo.grid.Direction,\ java.awt.Color)
+comment3.text=\ Constructs\ a\ fish\ of\ the\ specified\ color\ at\ the\ specified\ location\n\ \ and\ direction.\n\ \ (Precondition\:\ parameters\ are\ non-null;\ <code>loc</code>\ is\ valid\n\ \ for\ <code>env</code>.)\n\ \ @param\ env\ \ \ \ environment\ (grid)\ in\ which\ fish\ will\ live\n\ \ @param\ loc\ \ \ \ location\ of\ the\ new\ fish\ in\ <code>env</code>\n\ \ @param\ dir\ \ \ \ direction\ the\ new\ fish\ is\ facing\n\ \ @param\ col\ \ \ \ color\ of\ the\ new\ fish\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\ Acts\ for\ one\ step\ in\ the\ simulation.\ The\ fish\ will\ randomly\ change\ directions\ to\ left\ or\ right\ .\n
+comment5.params=loc
+comment5.target=void\ generateChild(edu.kzoo.grid.Location)
+comment5.text=\ Creates\ the\ child\ of\ a\ fish.\n\ \n\ @param\ \ loc\ \ \ \ location\ where\ child\ fish\ will\ go\n
+numComments=6

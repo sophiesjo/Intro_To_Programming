@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MBSGUI
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ The\ <code>MBSGUI</code>\ is\ a\ graphical\ user\ interface\ for\ the\n\ \ Marine\ Biology\ Simulation.\ \ The\ user\ interface\ consists\ of\ a\ window\n\ \ containing\ the\ environment\ display\ (objects\ in\ a\ grid),\ and\ a\ menu\ and\n\ \ set\ of\ buttons\ that\ allows\ the\ user\ to\ create\ a\ new\ grid,\ modify\ the\n\ \ contents\ of\ the\ grid,\ or\ step\ through\ the\ simulation.\ \ Users\ can\ also\n\ \ read\ in\ an\ initial\ configuration\ for\ the\ environment\ from\ a\ file,\ or\n\ \ write\ the\ current\ contents\ and\ configuration\ of\ the\ environment\ to\ a\n\ \ file.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=
+comment1.target=MBSGUI()
+comment1.text=\ Creates\ a\ window\ in\ which\ to\ run\ a\ marine\ biology\ simulation.\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=grid
+comment4.target=void\ setGrid(edu.kzoo.grid.Grid)
+comment4.text=\ Sets\ the\ grid\ being\ displayed\ (and\ displays\ it).\n\ \ \ \ @param\ grid\ the\ Grid\ to\ display\n
+comment5.params=
+comment5.target=void\ invokeEditor()
+comment5.text=\ Invokes\ the\ MBS\ grid\ editor\ for\ placing\ marine\ biology\ objects.\n\ \ \ \ \n
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GridDirObjDataFileHandler
+comment0.text=\n\ \ Grid\ GUI\ Support\ Package\:<br>\n\n\ \ A\ <code>GridDirObjDataFileHandler</code>\ object\ reads\ and\ writes\n\ \ information\ about\ a\ grid\ and\ the\ objects\ in\ it\ to\ and\ from\ a\ data\ file.\n\ \ It\ assumes\ that\ all\ objcts\ in\ the\ grid\ have\ constructors\ that\ expect\n\ \ three\ parameters\:\ the\ grid\ in\ which\ the\ object\ resides\ and\ acts,\ its\n\ \ initial\ location\ in\ the\ grid,\ and\ its\ direction.\n\n\ \ Each\ line\ representing\ an\ object\ in\ the\ grid\ should\ be\ in\ the\ following\n\ \ format\:\n\ \ <pre>\n\ \ \ \ \ class\ row-pos\ col-pos\ dir\n\ \ </pre>\n\ \ where\ <code>class</code>\ is\ a\ string\ indicating\ the\ class\ name\ of\n\ \ the\ object\ ("Fish"\ for\ example),\ <code>row-pos</code>\ and\n\ \ <code>col-pos</code>\ are\ integers\ indicating\ its\ row\ and\ column\n\ \ position,\ and\ <code>dir</code>\ is\ a\ compass\ direction\ (either\n\ \ a\ word\ like\ North\ or\ Northeast\ or\ a\ number\ of\ degrees).\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 4\ May\ 2019\n\ \ @see\ GridPkgFactory\n\n
+comment1.params=cls\ grid
+comment1.target=void\ constructObject(java.lang.Class,\ edu.kzoo.grid.Grid)
+comment1.text=\ Reads\ in\ information\ about\ an\ object\ in\ the\ grid\ (e.g.,\ location\n\ \ and\ direction)\ and\ constructs\ the\ object.\n\ \ @param\ cls\ \ \ \ \ \ \ class\ of\ new\ grid\ object\n\ \ @param\ grid\ \ \ \ \ \ grid\ in\ which\ location\ must\ be\ valid\n\ \ @throws\ RuntimeException\ \ \ if\ invalid\ location\ information\ is\ read\n
+comment2.params=
+comment2.target=edu.kzoo.grid.Direction\ readDirection()
+comment2.text=\ Reads\ in\ a\ new\ Direction\ object.\ \ The\ direction\ could\ be\ either\ an\n\ \ integer\ or\ a\ named\ compass\ direction\ recognized\ by\ the\ Direction\n\ \ constructor.\n\ \ @return\ the\ newly\ created\ direction\ object\n\ \ @throws\ RuntimeException\ \ \ if\ invalid\ direction\ information\ is\ read\n
+comment3.params=out\ obj
+comment3.target=void\ writeGridObject(java.io.PrintWriter,\ edu.kzoo.grid.GridObject)
+comment3.text=\ Writes\ information\ about\ an\ object\ in\ the\ grid\ (e.g.,\ location).\n\ \ Can\ be\ redefined\ in\ subclasses\ to\ write\ additional\ information,\n\ \ such\ as\ direction\ or\ color.\n\ \ @param\ out\ \ \ \ \ \ where\ to\ write\ information\n\ \ @param\ obj\ \ \ \ \ \ object\ whose\ information\ should\ be\ written\n
+numComments=4

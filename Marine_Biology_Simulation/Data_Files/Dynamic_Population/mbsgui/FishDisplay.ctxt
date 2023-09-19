@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FishDisplay
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ The\ <code>FishDisplay</code>\ class\ provides\ a\ way\ to\ display\n\ \ a\ fish\ using\ an\ image,\ rotating\ and\ tinting\ it\ as\ needed.\n\n\ \ @author\ Julie\ Zelensk\ (2002)\n\ \ @author\ Chris\ Nevison\ (2002)\n\ \ @author\ Alyce\ Brady\ (2002,\ 2019)\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=
+comment1.target=java.awt.Color\ getDefaultColor()
+comment1.text=Gets\ default\ color\ to\ use\ for\ objects\ with\ no\ color\ method.
+comment2.params=newDefaultColor
+comment2.target=void\ setDefaultColor(java.awt.Color)
+comment2.text=Sets\ default\ color\ to\ use\ for\ objects\ with\ no\ color\ method.
+comment3.params=
+comment3.target=FishDisplay()
+comment3.text=\n\ Constructs\ an\ object\ that\ knows\ how\ to\ draw\ a\ simple\ fish\n\ (which\ will\ need\ to\ be\ rotated\ when\ displayed).\n
+comment4.params=
+comment4.target=void\ buildPaths()
+comment4.text=\ Sets\ up\ the\ paths\ used\ for\ the\ fish\ with\ default\ values\ for\ the\n\ body,\ tail,\ and\ eyes.\n
+comment5.params=bodyWidth\ bodyLength\ tailWidth\ tailLength\ eyeSize
+comment5.target=void\ buildPaths(double,\ double,\ double,\ double,\ double)
+comment5.text=\ Sets\ up\ the\ paths\ used\ for\ the\ fish\ body,\ tail,\ and\ eyes.\n\ \ Different\ parameters\ will\ change\ the\ proportions,\ and\ thereby\n\ \ control\ the\ "look"\ of\ the\ fish.\ \ The\ various\ parameters\ should\ be\ \n\ \ specified\ assuming\ the\ fish\ will\ occupy\ a\ cell\ of\ size\ (1,\ 1).\n\ \ @param\ \ \ bodyWidth\ \ \ \ \ \ \ width\ of\ the\ elliptical\ body\n\ \ @param\ \ \ bodyLength\ \ \ \ \ \ length\ of\ the\ elliptical\ body\n\ \ @param\ \ \ tailWidth\ \ \ \ \ \ \ width\ of\ the\ triangular\ tail\n\ \ @param\ \ \ tailLength\ \ \ \ \ \ length\ of\ the\ triangular\ tail\n\ \ @param\ \ \ eyeSize\ \ \ \ \ \ \ \ \ diameter\ of\ the\ eye\n
+comment6.params=objToDraw\ comp\ g2
+comment6.target=void\ draw(edu.kzoo.grid.GridObject,\ java.awt.Component,\ java.awt.Graphics2D)
+comment6.text=\ Draws\ the\ given\ object\ as\ a\ fish.\n\ \ Fills\ a\ simple\ fish\ with\ gradient\ paint\ using\ the\ paths\ created\ in\n\ \ the\ construtor.\ The\ Fish\ is\ drawn\ facing\ North\ in\ a\ cell\ of\n\ \ size\ (1,1)\ centered\ around\ (0,0)\ on\ the\ drawing\ surface.\n\ \ (All\ scaling/rotating\ has\ been\ done\ beforehand).\n\ \ @param\ \ \ objToDraw\ \ object\ we\ want\ to\ draw\ to\ look\ like\ a\ fish\n\ \ @param\ \ \ comp\ \ \ \ \ \ \ component\ on\ which\ to\ draw\n\ \ @param\ \ \ g2\ \ \ \ \ \ \ \ \ drawing\ surface\n
+comment7.params=objToDraw
+comment7.target=java.awt.Color\ getColor(edu.kzoo.grid.GridObject)
+numComments=8

@@ -1,0 +1,15 @@
+bounded 12 12
+Fish 1 3 East
+Fish 3 3 East
+Fish 3 4 West
+Fish 5 2 East
+Fish 5 3 West
+Fish 7 1 East
+Fish 7 2 West
+Fish 7 3 West
+Fish 9 1 East
+Fish 9 2 West
+Fish 11 4 South
+Fish 11 6 South
+Fish 11 8 South
+Fish 10 10 South

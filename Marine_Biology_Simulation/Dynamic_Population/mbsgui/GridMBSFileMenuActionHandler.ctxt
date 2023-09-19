@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GridMBSFileMenuActionHandler
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ A\ <code>GridMBSFileMenuActionHandler</code>\ object\ \n\ \ provides\ the\ actions\ associated\ with\ choosing\ various\ items\n\ \ from\ the\ File\ Menu\ in\ the\ MBS\ program.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ March\ 23,\ 2017\n
+comment1.params=frame\ fileHandler
+comment1.target=GridMBSFileMenuActionHandler(edu.kzoo.grid.gui.GridAppFrame,\ edu.kzoo.grid.gui.GridDataFileHandler)
+comment1.text=\ Constructs\ a\ new\ GridMBSFileMenuActionHandler\ object.\n\ \ @param\ frame\ \ the\ frame\ that\ uses\ this\ action\ handler\n\ \ @param\ fileHandler\ object\ that\ can\ read\ and\ write\ a\ grid;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ null\ if\ this\ handler\ should\ not\ support\ file\ i/o\n
+comment2.params=
+comment2.target=boolean\ supportsGridEditing()
+comment2.text=\ Indicates\ whether\ this\ controller\ supports\ grid\ editing.\n\ \ @return\ <code>true</code>\n
+comment3.params=
+comment3.target=void\ createNewGrid()
+comment3.text=\ Creates\ a\ new\ empty\ grid\ and\ invokes\ the\ grid\ editor.\n\ \ (Precondition\:\ <code>supportsGridEditing()\ \=\=\ true</code>\n
+comment4.params=
+comment4.target=void\ invokeEditor()
+comment4.text=\ Invokes\ the\ appropriate\ editor.\n
+comment5.params=grid
+comment5.target=void\ editGrid(edu.kzoo.grid.Grid)
+comment5.text=\ Enables\ editing\ of\ an\ existing\ grid.\n
+numComments=6

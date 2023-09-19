@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FishImageDisplay
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ The\ <code>FishImageDisplay</code>\ class\ provides\ a\ way\ to\ display\n\ \ a\ fish\ using\ an\ image,\ rotating\ and\ tinting\ it\ as\ needed.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=imageFilename\ dir
+comment1.target=FishImageDisplay(java.lang.String,\ edu.kzoo.grid.Direction)
+comment1.text=\n\ Constructs\ an\ object\ that\ knows\ how\ to\ display\ a\ fish\ as\n\ an\ image\ (which\ will\ need\ to\ be\ rotated\ when\ displayed).\n
+numComments=2

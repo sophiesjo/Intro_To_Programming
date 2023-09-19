@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NarrowFishDisplay
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ A\ <code>NarrowFishDisplay</code>\ draws\ a\ long,\ narrow\ fish\ (an\ object\n\ \ of\ the\ <code>Fish</code>\ class\ or\ of\ a\ subclass\ of\ <code>Fish</code>).\n\ \ It\ inherits\ the\ <code>draw</code>\ method\ from\n\ \ <code>FishDisplay</code>,\ but\ the\ different\ paths\ for\ the\n\ \ fish\ body\ and\ eyes\ created\ when\ the\ display\ is\ constructed\ give\ fish\ drawn\n\ \ with\ a\ <code>NarrowFishDisplay</code>\ their\ own\ specialized\ look.\n\n\ \ @author\ Julie\ Zelensk\ (2002)\n\ \ @author\ Chris\ Nevison\ (2002)\n\ \ @author\ Alyce\ Brady\ (2019\:\ moved\ call\ to\ 5-parameter\ buildPaths\ from\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ constructor\ to\ zero-parameter\ buildPaths)\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=
+comment1.target=void\ buildPaths()
+comment1.text=\ Constructs\ an\ object\ that\ knows\ how\ to\ display\ long,\ narrow\ fish.\n
+numComments=2

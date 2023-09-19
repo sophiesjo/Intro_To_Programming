@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LittleFishDisplay
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ A\ <code>LittleFishDisplay</code>\ draws\ a\ small\ fish\ (an\ object\ of\ the\n\ \ <code>Fish</code>\ class\ or\ of\ a\ subclass\ of\ <code>Fish</code>).\n\ \ It\ inherits\ the\ <code>draw</code>\ method\ from\n\ \ <code>FishDisplay</code>,\ but\ the\ different\ paths\ for\ the\n\ \ fish\ body\ and\ eyes\ created\ when\ the\ display\ is\ constructed\ give\ fish\ drawn\n\ \ with\ a\ <code>LittleFishDisplay</code>\ their\ own\ specialized\ look.\n\n\ \ @author\ Alyce\ Brady\ (created\ in\ 2002;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2019\:\ moved\ call\ to\ 5-parameter\ buildPaths\ from\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ constructor\ to\ zero-parameter\ buildPaths)\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=
+comment1.target=void\ buildPaths()
+comment1.text=\ Constructs\ an\ object\ that\ knows\ how\ to\ display\ teeny\ little\ fish.\n
+numComments=2

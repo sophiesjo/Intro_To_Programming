@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GridMBSEditor
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ The\ <code>GridMBSEditor</code>\ class\ provides\ a\ window\ in\ which\n\ \ to\ add\ MBS\ objects\ to\ the\ environment.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 23\ March\ 2017\n
+comment1.params=frame
+comment1.target=GridMBSEditor(edu.kzoo.grid.gui.GridAppFrame)
+comment1.text=\ Constructs\ an\ empty\ ObstCourseEditor\ window.\n\ \ \ \ @param\ frame\ \ the\ frame\ that\ invoked\ this\ grid\ editor\n
+numComments=2

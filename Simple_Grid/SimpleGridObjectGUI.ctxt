@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SimpleGridObjectGUI
+comment0.text=\n\ \ Simple\ Grid\ Object\ Programming\ Project\:<br>\n\n\ \ A\ SimpleGridObjectGUI\ object\ represents\ the\ graphical\ user\ interface\ for\n\ \ the\ Simple\ Grid\ Object\ application.\n\n\ \ @author\ Alyce\ Brady\n\ \ @author\ Sophie\ Sjogren\n\ \ @version\ 10\ January\ 2021\n
+comment1.params=grid\ studentName\ assistants\ date
+comment1.target=SimpleGridObjectGUI(edu.kzoo.grid.BoundedGrid,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\ Constructs\ a\ new\ SimpleGridObjectGUI\ object\ (a\ graphical\ user\ interface\n\ \ for\ a\ Simple\ Grid\ Object\ application)\n\ \ @param\ grid\ \ \ \ the\ grid\ to\ be\ displayed\ by\ this\ GUI\n\ \ @param\ studentName\ \ \ \ the\ name\ of\ the\ student\ creating\ this\ program\n\ \ @param\ assistants\ \ \ \ \ the\ name\ of\ anyone\ who\ helped\ with\ this\ program\n\ \ @param\ date\ \ \ \ \ \ \ \ \ \ \ the\ date\ when\ the\ program\ was\ finished\n
+numComments=2

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SimpleGrid
+comment0.text=\n\ \ Simple\ Grid\ Object\ Programming\ Project\:<br>\n\n\ \ A\ SimpleGrid\ object\ represents\ a\ simple\ bounded\ grid.\ \ In\ addition\n\ \ to\ the\ methods\ it\ inherits\ from\ Grid\ and\ BoundedGrid,\ it\ provides\n\ \ methods\ that\ take\ row\ and\ column\ parameters\ rather\ than\ Location\n\ \ object\ parameters.\n\n\ \ @author\ Alyce\ Brady\n\ \ @author\ Sophie\ Sjogren\n\ \ @version\ 10\ January\ 2021\n
+comment1.params=numRows\ numCols
+comment1.target=SimpleGrid(int,\ int)
+comment1.text=\ Constructs\ a\ new\ SimpleGrid\ object\ with\ the\ given\ number\ of\ rows\n\ \ and\ the\ given\ number\ of\ columns.\n\ \ @param\ numRows\ \ \ \ the\ number\ of\ rows\ to\ give\ this\ simple\ grid\n\ \ @param\ numCols\ \ \ \ the\ number\ of\ columns\ to\ give\ this\ simple\ grid\n
+comment2.params=row\ col
+comment2.target=edu.kzoo.grid.GridObject\ objectAt(int,\ int)
+comment2.text=\ Returns\ the\ object\ at\ a\ specific\ (row,\ col)\ location\ in\ this\ grid.\n\ \ @param\ row\ \ \ \ the\ row\ in\ which\ to\ look\ (where\ the\ first\ row\ is\ 0)\n\ \ @param\ col\ \ \ \ the\ column\ in\ which\ to\ look\ (where\ the\ first\ column\ is\ 0)\n\ \ @return\ \ \ \ \ \ \ the\ object\ at\ location\ <code>(row,\ col)</code>;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>null</code>\ if\ <code>(row,\ col)</code>\ is\ not\ in\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ grid\ or\ is\ empty.\ \ For\ example,\ the\ call\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>objectAt(0,\ 0)</code>\ returns\ the\ object\ in\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ upper-left\ corner\ (first\ row,\ first\ column),\ if\ there\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ one,\ otherwise\ it\ returns\ <code>null</code>.\n
+comment3.params=obj\ row\ col
+comment3.target=void\ add(edu.kzoo.grid.GridObject,\ int,\ int)
+comment3.text=\ Adds\ a\ new\ object\ to\ this\ grid\ at\ the\ specified\ (row,\ col)\ location.\n\ \ (Precondition\:\ <code>obj.grid()</code>\ and\n\ \ \ <code>obj.location()</code>\ are\ both\ <code>null</code>;\ location\n\ \ \ <code>(row,\ col)</code>\ is\ a\ valid\ empty\ location\ in\ this\ grid.)\n\ \ @param\ obj\ the\ new\ object\ to\ be\ added\n\ \ @param\ row\ \ \ \ the\ row\ in\ which\ to\ place\ <code>obj</code>\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (row\ numbering\ starts\ at\ 0)\n\ \ @param\ col\ \ \ \ the\ column\ in\ which\ to\ place\ <code>obj</code>\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (column\ numbering\ starts\ at\ 0)\n\ \ @throws\ \ \ \ IllegalArgumentException\ if\ the\ precondition\ is\ not\ met\n
+comment4.params=row\ col
+comment4.target=void\ remove(int,\ int)
+comment4.text=\ Removes\ whatever\ object\ is\ at\ the\ specified\ location\ in\ this\ grid.\n\ \ If\ there\ is\ no\ object\ at\ the\ specified\ location,\ this\ method\ does\n\ \ nothing.\n\ \ @param\ row\ \ \ \ \ the\ row\ location\ from\ which\ to\ remove\ an\ object\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (row\ numbering\ starts\ at\ 0)\n\ \ @param\ col\ \ \ \ \ the\ column\ location\ from\ which\ to\ remove\ an\ object\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (column\ numbering\ starts\ at\ 0)\n
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SimpleGridObjectApp
+comment0.text=\n\ \ Simple\ Grid\ Object\ Programming\ Project\:<br>\n\n\ \ A\ SimpleGridObjectApp\ object\ represents\ an\ application\ with\ a\ simple\n\ \ grid\ in\ one\ may\ put\ basic\ grid\ objects,\ such\ as\ TextCell,\ ColorBlock,\n\ \ or\ PictureBlock\ objects.\n\ \ This\ grid\ displays\ "BINGO"\ at\ the\ top\ and\ includes\ pictures\ and\ colors\ in\ the\ other\ grid\ squares.\n\n\ \ @author\ Kelly\ Schultz\ and\ Alyce\ Brady\n\ \ @version\ 8\ January\ 2009\n\ @author\ Kelly\ Schultz\ and\ Alyce\ Brady\ (created\ 8\ January\ 2009)\n\ @author\ Sophie\ Sjogren\n\ @version\ 10\ January\ 2021\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ The\ main\ method\ represents\ the\ starting\ point\ of\ the\ application.\n\ \ \ \ @param\ args\ \ \ (unused)\n
+numComments=2

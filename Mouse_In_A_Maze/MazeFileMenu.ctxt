@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MazeFileMenu
+comment0.text=\n\ \ Grid\ GUI\ Support\ Package\:<br>\n\n\ \ The\ <code>MazeFileMenu</code>\ class\ provides\ a\ menu\ bar\n\ \ with\ a\ file\ menu\ for\ opening\ a\ maze\ and\ quitting\ the\ application.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ 29\ February\ 2004\n
+comment1.params=frame\ fileHandler
+comment1.target=MazeFileMenu(MouseMazeGUI,\ edu.kzoo.grid.gui.GridDataFileHandler)
+comment1.text=\ Creates\ a\ File\ menu\ to\ read\ maze\ data\ files.\n\ \ (Precondition\:\ frame\ is\ not\ null.\ )\n\ \ @param\ frame\ \ the\ frame\ that\ uses\ menu\ bar\n\ \ @param\ fileHandler\ object\ that\ can\ read\ and\ write\ a\ grid;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ null\ if\ this\ menu\ should\ not\ support\ file\ i/o\n
+comment2.params=
+comment2.target=void\ makeFileMenu()
+comment2.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.nuggets.BasicGridFileMenu\#makeFileMenu()\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=4

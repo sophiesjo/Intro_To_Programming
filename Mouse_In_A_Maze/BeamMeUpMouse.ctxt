@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BeamMeUpMouse
+comment0.text=\n\ This\ class\ extends\ from\ the\ mouse\ class\ and\ creates\ a\ mouse\ the\ moves\ to\ the\ location\ of\ the\ cheese\ in\ one\ step.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=
+comment1.target=BeamMeUpMouse()
+comment1.text=\n\ Constructor\ for\ beamMeUp\ mouse\ object\n
+comment2.params=
+comment2.target=edu.kzoo.grid.Location\ nextLocation()
+comment2.text=\ This\ method\ returns\ the\ next\ location\ for\ the\ mouse\ to\ be\ the\ same\ location\ as\ the\ cheese\n\ \n\ @return\ \ the\ location\ of\ the\ cheese\n
+numComments=3

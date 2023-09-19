@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ShortSightedMouse
+comment0.text=\n\ This\ class\ extends\ from\ the\ mouse\ class\ and\ creates\ a\ short\ sighted\ mouse\ who\ is\ able\ to\ see\ and\ move\ immediatley\ to\ the\ cheese\ if\ the\ cheese\ is\ within\ a\ short,\ 2\ block\ distance\ from\ the\ mouse.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=
+comment1.target=ShortSightedMouse()
+comment1.text=\n\ Constructor\ for\ the\ short\ sighted\ mouse\ object\n
+comment2.params=
+comment2.target=java.util.ArrayList\ emptyNeighbors()
+comment2.text=\ This\ method\ finds\ empty\ locations\ around\ the\ mouse\n\ \n\ \ @return\ \ \ \ an\ ArrayList\ containing\ the\ locations\ of\ the\ empty\ neighbors\n
+comment3.params=
+comment3.target=edu.kzoo.grid.Location\ nextLocation()
+comment3.text=\ This\ method\ selects\ the\ next\ location\ out\ of\ the\ list\ of\ empty\ neighbors\ and\ tests\ to\ see\ if\ the\ mouse\ is\ within\ a\ 2\ grid\ distance\ of\ the\ cheese\ and\ will\ move\ towards\ the\ final\ location\ if\ it\ is\n\ \ If\ the\ cheese\ is\ not\ within\ sight\ then\ the\ mouse\ will\ move\ randomly\n\ \n\ @return\ \ \ \ \ \ the\ location\ that\ is\ selected\ for\ the\ mouse\n
+comment4.params=
+comment4.target=boolean\ cheeseInSight()
+comment4.text=\ This\ method\ will\ test\ to\ see\ if\ the\ cheese\ is\ within\ sight\ of\ the\ mouse\ and\ will\ only\ find\ this\ true\ when\ the\ mouse\ is\ two\ or\ less\ blocks\ away\ from\ the\ cheese\n\ \n\ @return\ \ \ \ \ \ boolean\ that\ will\ be\ true\ if\ the\ mouse\ is\ within\ 2\ blocks\ of\ the\ cheese\n
+numComments=5

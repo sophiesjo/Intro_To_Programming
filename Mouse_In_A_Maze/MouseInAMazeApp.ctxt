@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MouseInAMazeApp
+comment0.text=\n\ \ Mouse\ in\ a\ Maze\ Program\:<br>\n\ \ \ \ The\ MouseInAMazeApp\ class\ constructs\ a\ graphical\ user\ interface\n\ \ \ \ for\ a\ mouse-in-a-maze\ program.\ \ Once\ the\ graphical\ user\ interface\n\ \ \ \ has\ been\ constructed,\ all\ program\ control\ originates\ from\ there.\n\ \ \ \ This\ class\ specifies\ the\ mouse,\ beamMeUpMouse,\ CluelessMouse,\ ShortSightedMouse,\ and\ LongSightedMouse\ in\ the\ options\ display.\n\n\ \ @author\ Alyce\ Brady\ and\ Sophie\ Sjogren\n\ \ @version\ 14\ March\ 2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ Start\ the\ Mouse\ in\ a\ Maze\ program.\n\ \ The\ String\ arguments\ (args)\ are\ not\ used\ in\ this\ application.\n
+numComments=2

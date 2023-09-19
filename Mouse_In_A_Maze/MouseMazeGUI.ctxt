@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=MouseMazeGUI
+comment0.text=\n\ \ Mouse\ Maze\ GUI\:<br>\n\n\ \ A\ MouseMazeGUI\ object\ represents\ a\ window\ with\ control\n\ \ buttons\ and\ a\ display\ for\ a\ Mouse-in-a-Maze\ project.\n\ \ Most\ of\ the\ functionality\ is\ provided\ in\ the\ ActiveGridFrame\n\ \ superclass.\n\ \ The\ GUI\ is\ just\ a\ prototype\ at\ this\ time.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ Feb\ 25,\ 2004\n
+comment1.params=mouseTypes
+comment1.target=MouseMazeGUI(java.util.Collection)
+comment1.text=\ Constructs\ a\ new\ MouseMazeGUI\ object.\n\ \ \ \ @param\ mouseTypes\ a\ collection\ of\ <code>Class</code>\ objects\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ representing\ the\ mouse\ classes\ supported\ by\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ program\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=Maze\ getMaze()
+comment3.text=Returns\ the\ maze\ controlled\ by\ this\ graphical\ user\ interface.\ *
+comment4.params=mouseTypes
+comment4.target=javax.swing.JComboBox\ makeMouseClassChooser(java.util.Collection)
+comment4.text=\ Creates\ the\ drop-down\ menu\ for\ choosing\ a\ type\ of\ mouse.\n\ \ \ \ @param\ mouseTypes\ a\ collection\ of\ <code>Class</code>\ objects\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ representing\ the\ mouse\ classes\ supported\ by\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ program\n
+comment5.params=
+comment5.target=java.lang.Class\ getMouseClass()
+comment5.text=\ Returns\ the\ type\ of\ mouse\ indicated\ by\ the\ drop-down\ menu.\n\ \ \ \ @return\ the\ class\ of\ the\ type\ of\ mouse\ currently\ selected\ in\n\ \ \ \ \ \ \ \ \ \ \ \ the\ drop-down\ menu\ for\ choosing\ mouse\ types\n
+comment6.params=
+comment6.target=void\ addMouseToGrid()
+comment7.params=
+comment7.target=void\ step()
+comment7.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.SteppedGridAppFrame\#step()\n
+comment8.params=
+comment8.target=void\ initialize()
+comment8.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.SteppedGridAppFrame\#initialize()\n
+numComments=9

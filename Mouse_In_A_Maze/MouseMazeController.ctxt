@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MouseMazeController
+comment0.text=\n\ \ A\ <code>MouseMazeController</code>\ object\ handles\ the\ starting,\ stepping,\ and\n\ \ stopping\ operations\ initiated\ by\ the\ user\ using\ the\ GUI\ fir\ the\n\ \ mouse-in-a-maze\ application.\n\n\ \ @author\ Alyce\ Brady\n\ \ @version\ Feb\ 29,\ 2004\n
+comment1.params=
+comment1.target=MouseMazeController()
+comment1.text=Constructs\ a\ MouseMazeController\ object.
+comment2.params=gui
+comment2.target=void\ setGUI(MouseMazeGUI)
+comment2.text=\ Sets\ the\ graphical\ user\ interface\ that\ the\ controller\ will\n\ \ communicate\ with\ as\ the\ program\ progresses.\n
+comment3.params=
+comment3.target=void\ step()
+comment3.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.SteppedGridAppController\#step()\n
+comment4.params=
+comment4.target=boolean\ hasReachedStoppingState()
+comment4.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.SteppedGridAppController\#hasReachedStoppingState()\n
+comment5.params=
+comment5.target=void\ init()
+comment5.text=\ (non-Javadoc)\n\ @see\ edu.kzoo.grid.gui.SteppedGridAppController\#init()\n
+comment6.params=
+comment6.target=void\ addMouse()
+comment6.text=\ Adds\ a\ mouse\ into\ the\ maze.\n\ \ (Precondition\:\ the\ maze\ must\ already\ exist.)\n
+comment7.params=
+comment7.target=void\ removeMouse()
+comment7.text=\ Removes\ a\ mouse\ from\ the\ maze\ (if\ there\ is\ one\ there).\n\ \ (Precondition\:\ the\ maze\ must\ already\ exist.)\n
+numComments=8

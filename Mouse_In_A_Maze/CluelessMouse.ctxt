@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CluelessMouse
+comment0.text=\n\ This\ class\ extends\ from\ the\ mouse\ class\ and\ creates\ a\ mouse\ that\ will\ cluelessly\ look\ around\ in\ random\ locations.\ \n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=
+comment1.target=CluelessMouse()
+comment1.text=\n\ Constructor\ for\ the\ clueless\ mouse\ object\n
+comment2.params=
+comment2.target=java.util.ArrayList\ emptyNeighbors()
+comment2.text=\ This\ method\ finds\ empty\ locations\ around\ the\ mouse\n\ \n\ \ @return\ \ \ \ an\ ArrayList\ containing\ the\ locations\ of\ the\ empty\ neighbors\n
+comment3.params=
+comment3.target=edu.kzoo.grid.Location\ nextLocation()
+comment3.text=\ This\ method\ randomly\ selects\ the\ next\ location\ out\ of\ the\ list\ of\ empty\ neighbors\ and\ creates\ the\ random\ movement\ affect\ of\ the\ clueless\ mouse\n\ \n\ @return\ \ \ \ \ \ the\ location\ that\ is\ randomly\ selected\ for\ the\ mouse\n
+numComments=4

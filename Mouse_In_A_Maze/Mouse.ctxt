@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Mouse
+comment0.text=\n\ This\ class\ creates\ a\ mouse\ object\ which\ is\ able\ to\ find\ next\ locations\ on\ the\ grid\ and\ move\ to\ those\ locations.\n\ This\ is\ the\ abstract\ class\ to\ the\ other\ mouse\ classes.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=
+comment1.target=Mouse()
+comment1.text=\n\ Constructor\ for\ the\ mouse\ object\ and\ determines\ the\ color\ to\ be\ light\ gray\n
+comment2.params=
+comment2.target=Maze\ getMaze()
+comment2.text=\ This\ method\ returns\ a\ maze\ as\ an\ object\ to\ be\ used\ in\ the\ class\n\ \n\ @return\ \ the\ maze\ object\ \n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\n\ This\ method\ moves\ the\ mouse\ by\ finding\ the\ next\ location\ and\ determines\ the\ mouses'\ movements\ according\ to\ where\ the\ cheese\ is\ and\ where\ the\ mouse\ currently\ is.\n\n
+comment4.params=
+comment4.target=edu.kzoo.grid.Location\ nextLocation()
+comment4.text=\ Finds\ this\ mouse's\ next\ location.\n\ \ \n\ \ @return\ \ \ \ the\ next\ location\ for\ the\ mouse\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ Returns\ a\ string\ representing\ key\ information\ about\ the\ mouse.\n\ \n\ \ @return\ \ a\ string\ indicating\ the\ class\ and\ location\n
+numComments=6

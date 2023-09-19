@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\n\ The\ maze\ class\ constructs\ the\ maze\ object\ and\ has\ setter\ and\ getter\ methods\ for\ the\ finish\ and\ start\ locations.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=rows\ cols
+comment1.target=Maze(int,\ int)
+comment1.text=\n\ Constructor\ for\ the\ maze\ object\ that\ uses\ the\ specified\ dimensions\n\ \n\ \ @param\ rows\ \ the\ number\ of\ rows\ in\ the\ maze\n\ \ @param\ cols\ \ the\ number\ of\ columns\ in\ the\ maze\n
+comment2.params=start
+comment2.target=void\ setStartLoc(edu.kzoo.grid.Location)
+comment2.text=\ Sets\ the\ starting\ location\ of\ the\ mouse\n\ \ \n\ \ @param\ start\ \ \ \ the\ starting\ location\ of\ the\ mouse\ on\ the\ grid\n
+comment3.params=finish
+comment3.target=void\ setFinishLoc(edu.kzoo.grid.Location)
+comment3.text=\ Sets\ the\ location\ of\ the\ cheese\ and\ where\ the\ mouse\ will\ end\ up\n\ \ \n\ \ @param\ finish\ \ \ \ the\ location\ of\ the\ cheese\ on\ the\ grid\n
+comment4.params=
+comment4.target=edu.kzoo.grid.Location\ getStartLoc()
+comment4.text=\ Method\ to\ get\ the\ starting\ location\ of\ the\ mouse\n\ \ \n\ \ @return\ the\ location\ that\ the\ mouse\ starts\n
+comment5.params=
+comment5.target=edu.kzoo.grid.Location\ getFinishLoc()
+comment5.text=\ Method\ to\ get\ the\ location\ of\ the\ cheese\ and\ where\ the\ mouse\ will\ finish\n\ \ \n\ \ @return\ the\ location\ that\ the\ cheese\ is\ in\ and\ where\ the\ mouse\ will\ end\ up\n
+numComments=6

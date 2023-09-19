@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LongSightedMouse
+comment0.text=\n\ This\ class\ extends\ the\ mouse\ class\ and\ creates\ a\ long\ sighted\ mouse\ that\ is\ able\ to\ see\ if\ the\ cheese\ is\ within\ its\ row\ and\ column,\ and\ if\ it\ is\ then\ the\ mouse\ will\ move\ towards\ the\ cheese.\n\n\ @author\ Sophie\ Sjogren\n\ @version\ 13\ March\ 2021\n
+comment1.params=
+comment1.target=LongSightedMouse()
+comment1.text=\n\ Constructor\ for\ the\ long\ sighted\ mouse\ object\n
+comment2.params=
+comment2.target=java.util.ArrayList\ emptyNeighbors()
+comment2.text=\ This\ method\ finds\ empty\ locations\ around\ the\ mouse\n\ \n\ \ @return\ \ \ \ an\ ArrayList\ containing\ the\ locations\ of\ the\ empty\ neighbors\n
+comment3.params=
+comment3.target=edu.kzoo.grid.Location\ nextLocation()
+comment3.text=\ This\ method\ selects\ the\ next\ location\ out\ of\ the\ list\ of\ empty\ neighbors\ and\ tests\ to\ see\ if\ the\ mouse\ is\ within\ a\ 2\ grid\ distance\ of\ the\ cheese\ and\ will\ move\ towards\ the\ final\ location\ if\ it\ is\n\ \ If\ the\ cheese\ is\ not\ within\ sight\ then\ the\ mouse\ will\ move\ randomly\n\ \n\ @return\ \ \ \ \ \ the\ location\ that\ is\ selected\ for\ the\ mouse\n
+comment4.params=
+comment4.target=boolean\ anythingInTheWay()
+comment4.text=\ This\ method\ will\ check\ if\ the\ cheese\ is\ in\ sight\ by\ seeing\ if\ there\ are\ empty\ spaces\ between\ the\ mouse\ and\ the\ cheese\n\ \n\ \ @return\ \ \ \ boolean\ and\ this\ will\ be\ true\ only\ when\ there\ are\ no\ obstacles\ between\ the\ cheese\ and\ the\ mouse\n
+numComments=5

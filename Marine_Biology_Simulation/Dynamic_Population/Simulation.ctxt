@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Simulation
+comment0.text=\n\ \ Grid-Based\ Marine\ Biology\ Simulation\ Program\:<br>\n\n\ \ A\ <code>Simulation</code>\ object\ controls\ a\ simulation\ of\ fish\n\ \ movement\ in\ a\ <code>Grid</code>-based\ environment.\n\n\n\ \ @author\ Alyce\ Brady\ (based\ partly\ on\ the\ AP\ CS\ MBS\ Simulation\ class)\n\ \ @version\ 25\ April\ 2019\n
+comment1.params=env\ display
+comment1.target=Simulation(edu.kzoo.grid.Grid,\ edu.kzoo.grid.gui.GridAppFrame)
+comment1.text=\ Constructs\ a\ <code>Simulation</code>\ object\ for\ a\ particular\n\ \ grid-based\ environment.\n\ \ @param\ env\ \ \ \ \ the\ environment\ on\ which\ the\ simulation\ will\ run\n\ \ @param\ display\ an\ object\ that\ knows\ how\ to\ display\ the\ environment\n
+comment2.params=numSteps
+comment2.target=void\ run(int)
+comment2.text=Runs\ the\ simulation\ for\ as\ many\ steps\ as\ specified.\ *
+comment3.params=
+comment3.target=void\ step()
+comment3.text=Runs\ through\ a\ single\ step\ of\ this\ simulation.\ *
+numComments=4

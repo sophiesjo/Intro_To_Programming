@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WordCountingApp
+comment0.text=\n\ \ Lab\ 2\:\ Word\ Counter\n\n\ \ The\ <code>WordCountingApp</code>\ class\ provides\ a\ main\ method\n\ \ for\ a\ program\ that\ analyzes\ text\ and\ counts\ the\ words.\ \n\ \ The\ program\ will\ read\ the\ first\ line\ from\ the\ text\ and\n\ \ will\ print\ the\ length\ and\ number\ of\ words\ in\ that\ line\ then\ skip\ the\ next\ 60\ lines\ and\ print\ out\n\ \ the\ 62nd\ line\ and\ do\ the\ same\ analysis\ as\ the\ first\ line.\ The\ program\ will\ then\ analyze\ the\ text\ as\n\ \ a\ whole\ and\ print\ the\ average\ length,\ average\ number\ of\ words\ per\ line,\ and\ the\ average\ length\ of\ words\n\ \ through\ the\ entire\ text.\n\ \ In\ the\ next\ exercise,\ the\ program\ prints\ the\ number\ of\ distinct\ words\ and\ finds\ how\ many\n\ \ occur\ once\ and\ how\ many\ are\ longer\ than\ 14\ characters\ along\ with\ if\ any\ contain\ the\ word\ "tale"\n\ \ and\ then\ the\ program\ prints\ how\ many\ times\ certain\ characters\ are\ referenced.\n\n\n\ \ @author\ Sophie\ Sjogren\n\ \ @version\ 26\ January,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ \ The\ main\ function\ initiates\ execution\ of\ this\ program.\n\ \ \ \ @param\ \ \ \ String[]\ args\ not\ used\ in\ this\ program\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (but\ main\ methods\ always\ need\ this\ parameter)\n
+numComments=2

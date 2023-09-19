@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AquaSimApplication
+comment0.text=\ Aquarium\ Lab\ Series\:\ <br>\ \ \ \ \n\ \ \ \ \ \ The\ AquaSimApplication\ class\ contains\ the\ main\ function\ that\ will\n\ \ \ \ \ \ run\ the\ Aquarium\ Simulation.\ The\ program\ asks\ the\ user\ to\ input\ a\ number\ of\ fish\n\ \ \ \ \ \ and\ a\ number\ of\ steps\ and\ when\ start\ is\ pressed\ there\ will\ be\ an\ aquarium\ simulation\n\ \ \ \ \ \ that\ displays\ the\ number\ of\ fish\ inputted\ by\ the\ user.\ Each\ fish\ will\ be\ randomly\ \n\ \ \ \ \ \ assigned\ a\ color\ and\ will\ take\ the\ number\ of\ steps\ inputted\ by\ the\ user.\ The\ fish\ \n\ \ \ \ \ \ will\ change\ direction\ when\ reaching\ a\ wall\ and\ will\ randomly\ change\ direction\ while\ moving.<br>\n\n\ Modifications\:\ <br>\n\ \ \ 23\ March\ 2008,\ \ Alyce\ Brady,\ \ Created\ skeleton\ main\ that\ constructs\ and\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ displays\ an\ empty\ aquarium.<br>\n\ \ \ (date),\ (your\ name),\ Modified\ to\ ....\ <br>\n\n\ \ @author\ \ Sophie\ Sjogren\n\ \ @version\ 18\ January\ 2021\n\ \ @see\ AquariumController\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ \ This\ is\ the\ main\ function.\ \ It\ executes\ the\ program.\n\ \ @param\ \ \ \ String\ args[]\ is\ never\ used\n
+numComments=2
